@@ -1,0 +1,30 @@
+Online Food Ordering Application
+
+
+A customer should be able to log in to a food delivery application, search for a restaurant, add food items to the cart, apply a coupon, select a delivery address, make payment, and place the order.
+
+The application supports UPI, credit/debit cards, and Cash on Delivery. A coupon SAVE20 gives 20% off on orders above ₹500, with a maximum discount of ₹150.
+
+If payment fails, the order should not be created. If payment succeeds, the customer should receive an order confirmation with an order ID.
+
+Questions
+
+Requirement Analysis Agent
+Analyze the above requirement.
+Identify the functional requirements.
+Identify missing or ambiguous requirements.
+Identify validations that should be implemented.
+Identify possible edge cases.
+Test Case Generation Agent
+Generate positive and negative test cases for this requirement.
+Create test cases for adding/removing items from the cart.
+Create test cases for the SAVE20 coupon.
+Create boundary-value test cases for the minimum ₹500 order condition.
+Generate payment-related test cases.
+Generate test cases for successful and failed orders.
+Bug Analysis Agent
+Bug Failure report agent
+
+Defect like:
+
+A customer adds food worth ₹600 to the cart and applies SAVE20. Instead of giving ₹120 discount, the system gives ₹200 discount.
